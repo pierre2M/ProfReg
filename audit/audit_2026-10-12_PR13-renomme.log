@@ -1,0 +1,570 @@
+'exemple_sans_miroir_viole_R1' depends on axioms: [propext]
+'systemique_sans_creancier_viole_R1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R1_systemique_ssi_creancier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CB1_in_unit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CB1_lax_monoidal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CB2_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CB2_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'R1_preserved_under_CB1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CB3_candidate_not_oplax_monoidal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'systemique_requires_R1_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'B1_coherence_condition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V1_commutatif' depends on axioms: [propext]
+'V1_commute_ssi_coherence' does not depend on any axioms
+'ProfReg.V3_commutatif' depends on axioms: [propext]
+'ProfReg.V3_aboutit_deliberation' depends on axioms: [propext]
+'ProfReg.V3_actoriel_inchange' depends on axioms: [propext]
+'ProfReg.inventaire_nonempty_required' does not depend on any axioms
+'ProfReg.inventaire_nonempty_discrimine' does not depend on any axioms
+'ProfReg.cascade_deliberation_before_critique' does not depend on any axioms
+'ProfReg.nonattribuee_force_deliberation' does not depend on any axioms
+'ProfReg.critique_released_by_porteur' depends on axioms: [propext]
+'ProfReg.V4_cascade_coherente' depends on axioms: [propext]
+'V4c.V4c_actoriel_preserved' depends on axioms: [propext]
+'V4c.V4c_regime_unchanged' depends on axioms: [propext]
+'V4c.V4c_actoriel_preserved_alias' depends on axioms: [propext]
+'V10.V10a_planetaire_force_deliberation' does not depend on any axioms
+'V10.V10a_planetaire_critique_interdit' does not depend on any axioms
+'V10.V10a_synthese' does not depend on any axioms
+'VJE.VJE_sensJE_declenche' depends on axioms: [propext]
+'VJE.VJE_sensEJ_episodique' depends on axioms: [propext]
+'VJE.VJE_sensEJ_structurel_bloque' depends on axioms: [propext]
+'VJE.VJE_carre_ne_commute_pas_sans_revision' depends on axioms: [propext]
+'VJE.VJE_ferme_apres_revision_externe' depends on axioms: [propext]
+'VJE.sensJE_ne_produit_pas_la_revision' does not depend on any axioms
+'VJE.VJE_pasDeJE_horsHermeneutique' depends on axioms: [propext]
+'ProfRegLot.R1_preserved_under_base_change' does not depend on any axioms
+'ProfRegLot.registre_augmente_preserve_R1' does not depend on any axioms
+'ProfRegLot.registre_augmente_coherent' does not depend on any axioms
+'ProfRegLot.registre_augmente_non_equivalence' depends on axioms: [propext]
+'ProfRegLot.regime_declared_per_ecriture' does not depend on any axioms
+'ProfRegLot.debit_actoriel_exclut_credit_systemique' does not depend on any axioms
+'ProfRegLot.retiqueter_regime_unchanged' does not depend on any axioms
+'ProfRegLot.fraction_exhibe_sa_source' does not depend on any axioms
+'ProfRegLot.opposabilite_exige_statut_declare' does not depend on any axioms
+'ProfRegLot.opposabilite_exhibe_statut' does not depend on any axioms
+'ProfRegLot.PR14_ne_borne_pas_l_attribution' depends on axioms: [propext]
+'ProfRegD4.sans_porteur_nomme_pas_de_renversement' does not depend on any axioms
+'ProfRegD4.preuve_non_reconstructible_ne_satisfait_pas' does not depend on any axioms
+'ProfRegD4.charge_ne_retombe_pas_sur_les_affectes' does not depend on any axioms
+'ProfRegD4.charge_satisfaite_et_renversement_declare_coexistent' depends on axioms: [propext]
+'ProfRegPR10.seuil_valuatif_must_declare_status' depends on axioms: [propext]
+'ProfRegPR10.mixte_traite_comme_seuil_valuatif' depends on axioms: [propext]
+'ProfRegPR10.PR10_ne_vaut_pas_pour_les_relationnelles' depends on axioms: [propext]
+'ProfRegPR10.typage_binaire_apres_prudence' depends on axioms: [propext]
+'ProfRegPR10.suspension_ni_absence_ni_endossement' depends on axioms: [propext]
+'ProfRegPR10.suspension_ne_declenche_aucune_regle' does not depend on any axioms
+'ProfRegPR10.orthogonalite_charge_valuative_usage' does not depend on any axioms
+'ProfRegPR10.PR10_ne_prouve_pas_la_separabilite' depends on axioms: [propext]
+'ProfRegPR3.attribuee_seuil_declare_required' does not depend on any axioms
+'ProfRegPR3.attribution_exige_un_seuil_declare' does not depend on any axioms
+'ProfRegPR3.stricte_est_instance_du_repli' does not depend on any axioms
+'ProfRegPR3.repli_a_l_instant_d_attribution_est_strict' does not depend on any axioms
+'ProfRegPR3.repli_sans_echeance_degenere' does not depend on any axioms
+'ProfRegPR3.echeance_nommee_exige_une_date' does not depend on any axioms
+'ProfRegPR3.stricte_interdit_declaration_posterieure' does not depend on any axioms
+'ProfRegPR3.repli_autorise_l_attribution_avant_declaration' does not depend on any axioms
+'ProfRegPR3.critique_exige_attribution' depends on axioms: [propext]
+'ProfRegPR3.seuil_non_declare_interdit_attribution' does not depend on any axioms
+'ProfRegPR3.seuil_non_declare_bloque_critique' depends on axioms: [propext]
+'ProfRegPR3.attribution_exige_seuil_et_quadruplet' depends on axioms: [propext]
+'ProfRegPR3.PR3_ne_departage_pas_les_seuils' does not depend on any axioms
+'ProfRegPR3.PR3_ne_choisit_pas_le_regime' does not depend on any axioms
+'ProfRegPR8.representation_pratique_refutation' does not depend on any axioms
+'ProfRegPR8.representation_planetaire_refutation' does not depend on any axioms
+'ProfRegPR8.bien_formee_sans_refutation_n_est_pas_obligee' does not depend on any axioms
+'ProfRegPR8.le_marqueur_se_leve_exactement_sur_le_defaut' depends on axioms: [propext]
+'ProfRegPR8.planetaire_sans_porteur_exige_refutation' does not depend on any axioms
+'ProfRegPR8.le_defaut_exige_la_refutation' does not depend on any axioms
+'ProfRegPR8.exactement_deux_regimes_obliges' does not depend on any axioms
+'ProfRegPR8.PR8_ne_vaut_pas_pour_les_legitimites_procedurales' does not depend on any axioms
+'ProfRegPR8.PR8_ne_juge_pas_la_praticabilite' depends on axioms: [propext]
+'ProfRegPR16.refutation_exige_un_tiers' does not depend on any axioms
+'ProfRegPR16.autorefutation_n_est_pas_refutation' does not depend on any axioms
+'ProfRegPR16.refutation_exige_un_lieu' does not depend on any axioms
+'ProfRegPR16.refutation_exige_une_reprise' does not depend on any axioms
+'ProfRegPR16.PR8_ne_suffit_pas' depends on axioms: [propext]
+'ProfRegPR16.le_foldr_max' depends on axioms: [propext]
+'ProfRegPR16.nat_non_enumerable' depends on axioms: [propext, Quot.sound]
+'ProfRegPR16.liste_close_exclut_toujours' does not depend on any axioms
+'ProfRegPR16.ouverture_n_exclut_personne' does not depend on any axioms
+'ProfRegPR16.PR16_ne_designe_pas_le_tiers' depends on axioms: [propext]
+'ProfRegPR16.une_inscription_bien_formee_porte_une_condition' depends on axioms: [propext]
+'ProfRegPR17.regime_du_dispositif_declare' depends on axioms: [propext]
+'ProfRegPR17.experimentation_ne_supporte_pas_le_critere' depends on axioms: [propext]
+'ProfRegPR17.nonDeclare_ne_vaut_pas_permission' depends on axioms: [propext]
+'ProfRegPR17.PR17_admet_l_infrastructure' depends on axioms: [propext]
+'ProfRegPR17.PR17_refuse_l_experimentation' depends on axioms: [propext]
+'ProfRegPR17.PR17_n_interdit_pas_la_mesure' depends on axioms: [propext]
+'ProfRegPR17.les_deux_mesures_ne_coincident_pas' depends on axioms: [propext]
+'ProfRegPR18.porteur_du_seuil_exhibe_sa_population' depends on axioms: [propext]
+'ProfRegPR18.cas_concernes' depends on axioms: [propext]
+'ProfRegPR18.cas_tiers' depends on axioms: [propext]
+'ProfRegPR18.declarant_seul_refutant_est_mal_formee' does not depend on any axioms
+'ProfRegPR18.declarer_par_les_concernes_reste_admissible' depends on axioms: [propext]
+'ProfRegPR18.PR18_n_impose_pas_qui_declare' depends on axioms: [propext]
+'ProfRegPR18.PR18_ne_juge_pas_le_contenu' depends on axioms: [propext]
+'ProfRegPR19.agreger_serieTriviale' depends on axioms: [propext, Quot.sound]
+'ProfRegPR19.serieTriviale_est_triviale' does not depend on any axioms
+'ProfRegPR19.serie_bien_formee_agregat_non_conforme' depends on axioms: [propext, Quot.sound]
+'ProfRegPR19.serie_nulle_reste_conforme' depends on axioms: [propext]
+'ProfRegPR19.seuil_nul_transfere_a_la_serie' depends on axioms: [propext]
+'ProfRegPR19.PR19_n_interdit_aucune_serie' depends on axioms: [propext, Quot.sound]
+'ProfRegPR19.PR19_ne_juge_pas_le_seuil' depends on axioms: [propext, Quot.sound]
+'ProfRegPR19.PR19_ne_touche_pas_l_ecriture_isolee' does not depend on any axioms
+'ProfRegPR10.usage_agregat_non_declare_n_est_pas_une_declaration' does not depend on any axioms
+'ProfRegPR10.BienFormee_ne_borne_pas_le_quintuplet' depends on axioms: [propext]
+'ProfRegPR10.orthogonalite_usage_agregat_regime_usage' does not depend on any axioms
+'ProfRegPR10.constatation_reste_licite' depends on axioms: [propext]
+'ProfRegPR10.PR10_ne_juge_pas_l_usage_de_l_agregat' depends on axioms: [propext]
+'ProfRegPR10.le_cinquieme_terme_ne_touche_pas_au_seuil' does not depend on any axioms
+'ProfRegPR20.lien_est_symetrique' depends on axioms: [propext]
+'ProfRegPR20.la_creance_n_est_pas_symetrique' does not depend on any axioms
+'ProfRegPR20.compat_financier' depends on axioms: [propext]
+'ProfRegPR20.compat_communalite' depends on axioms: [propext]
+'ProfRegPR20.lien_inter_acteurs_porte_par_un_registre_augmente' depends on axioms: [propext]
+'ProfRegPR20.R1_tient_dans_les_deux_registres' depends on axioms: [propext]
+'ProfRegPR20.roles_opposes' does not depend on any axioms
+'ProfRegPR20.le_typage_determine_le_role' does not depend on any axioms
+'ProfRegPR20.compat_financier_bis' depends on axioms: [propext]
+'ProfRegPR20.accord_sur_l_existence_pas_sur_la_valeur' depends on axioms: [propext]
+'ProfRegPR20.sans_creance_aucun_lien' depends on axioms: [propext]
+'ProfRegPR20.absence_n_est_pas_lien_nul' depends on axioms: [propext]
+'ProfRegPR20.miroirIA_involutive' does not depend on any axioms
+'ProfRegPR20.miroirIA_sans_point_fixe' does not depend on any axioms
+'ProfRegPR20.PR20_ne_designe_pas_le_creancier' does not depend on any axioms
+'ProfRegPR20.sans_creance_sur_soi_pas_de_lien_a_soi' depends on axioms: [propext]
+'ProfRegPR20.les_deux_registres_augmentes_ont_le_meme_socle' depends on axioms: [propext]
+'ProfRegPR20.lien_temoin_discriminant' does not depend on any axioms
+'ProfRegPR21.champ_declare_peut_mentir' depends on axioms: [propext]
+'ProfRegPR21.les_deux_mensonges_existent' does not depend on any axioms
+'ProfRegPR21.le_champ_ajoute_un_degre_de_liberte' depends on axioms: [propext]
+'ProfRegPR21.controleR1_trie' depends on axioms: [propext]
+'ProfRegPR21.respect_R1_peut_mentir' depends on axioms: [propext]
+'ProfRegPR21.PR21_ne_condamne_pas_les_champs_declares' does not depend on any axioms
+'ProfRegPR21.PR21_ne_juge_pas_le_controle' depends on axioms: [propext]
+'ProfRegPR21.PR21_ne_dit_pas_que_la_fiche_ment' does not depend on any axioms
+'ProfRegPR22.une_chose_deux_natures' does not depend on any axioms
+'ProfRegPR22.enumeration_close_exclut_un_collectif' does not depend on any axioms
+'ProfRegPR22.seule_l_ouverture_admet_tout_collectif' does not depend on any axioms
+'ProfRegPR22.une_liste_close_de_collectifs_Nat_exclut_quelqu_un' depends on axioms: [propext, Quot.sound]
+'ProfRegPR22.PR22_ne_departage_pas_les_regimes' does not depend on any axioms
+'ProfRegPR22.PR22_ne_supprime_pas_les_regimes_etablis' does not depend on any axioms
+'ProfRegPR22.PR22_ne_calcule_aucun_miroir' does not depend on any axioms
+'ProfRegPR23.BienFormee_ne_borne_pas_le_maintien' does not depend on any axioms
+'ProfRegPR23.CONV11_est_satisfiable' does not depend on any axioms
+'ProfRegPR23.deux_dettes_distinctes_meme_ecriture' does not depend on any axioms
+'ProfRegPR23.la_glose_ne_rend_rien_lisible' does not depend on any axioms
+'ProfRegPR23.ecart_lisible_temoin_discriminant' does not depend on any axioms
+'ProfRegPR23.la_glose_varie_librement' does not depend on any axioms
+'ProfRegPR23.priorite_sans_assiette' does not depend on any axioms
+'ProfRegPR23.le_maintien_separe_les_situations' does not depend on any axioms
+'ProfRegPR23.priorite_mord_si_inscrite' depends on axioms: [propext, Quot.sound]
+'ProfRegPR23.CONV11_satisfaite_sans_registre_financier' does not depend on any axioms
+'ProfRegPR23.la_glose_ne_satisfait_pas_CONV11' does not depend on any axioms
+'ProfRegPR23.PR23_ne_juge_aucun_montant' does not depend on any axioms
+'ProfRegPR23.PR23_ne_privilegie_aucun_registre' does not depend on any axioms
+'ProfRegPR23.PR23_n_affirme_aucune_dette' does not depend on any axioms
+'ProfRegPR23.PR23_ne_certifie_pas_le_nommage' does not depend on any axioms
+'ProfRegPR23.CONV11_complet_retrouve_PR23' does not depend on any axioms
+'ProfRegPR23.CONV11_complet_satisfait_CONV11' does not depend on any axioms
+'ProfRegPR23.la_projection_perd_la_contrepartie' does not depend on any axioms
+'ProfRegPR23.la_dette_de_preservation_est_calculee' does not depend on any axioms
+'ProfRegPR11.obligation_non_cessible' does not depend on any axioms
+'ProfRegPR11.porteur_stable_hors_devolution' does not depend on any axioms
+'ProfRegPR11.seule_la_realisation_eteint' depends on axioms: [propext]
+'ProfRegPR11.la_devolution_ne_solde_pas' depends on axioms: [propext]
+'ProfRegPR11.l_effet_ne_distingue_pas_cession_et_devolution' does not depend on any axioms
+'ProfRegPR11.l_etat_efface_son_origine' does not depend on any axioms
+'ProfRegPR11.devolution_libre_reconstitue_la_cession' does not depend on any axioms
+'ProfRegPR11.le_resultat_depend_du_regime' depends on axioms: [propext]
+'ProfRegPR11.regime_strict_bloque_a_la_disparition' does not depend on any axioms
+'ProfRegPR11.regime_strict_fige_le_porteur' depends on axioms: [propext]
+'ProfRegPR11.PR11_n_interdit_pas_la_devolution' depends on axioms: [propext]
+'ProfRegPR11.PR11_ne_choisit_pas_le_regime' does not depend on any axioms
+'ProfRegPR11.PR11_ne_verifie_pas_la_realisation' does not depend on any axioms
+'ProfRegPR11.PR11_ne_juge_pas_l_obligation' does not depend on any axioms
+'ProfRegPR13.la_non_equivalence_est_calculee' depends on axioms: [propext]
+'ProfRegPR13.sans_niveau_declare_aucun_verdict' depends on axioms: [propext]
+'ProfRegPR13.aucune_fusion_entre_niveaux_distincts' depends on axioms: [propext]
+'ProfRegPR13.niveau_non_declare_ne_vaut_pas_permission' depends on axioms: [propext]
+'ProfRegPR13.niveau_non_declare_a_droite_ne_vaut_pas_permission' depends on axioms: [propext]
+'ProfRegPR13.fusion_admise_seulement_au_meme_niveau' depends on axioms: [propext]
+'ProfRegPR13.aucun_predicat_sur_la_charge_ne_borne_le_niveau' does not depend on any axioms
+'ProfRegPR13.sans_le_niveau_l_interdiction_est_inapplicable' depends on axioms: [propext]
+'ProfRegPR13.le_niveau_declare_separe_les_situations' depends on axioms: [propext]
+'ProfRegPR13.controleNonEquivalence_trie' does not depend on any axioms
+'ProfRegPR13.un_champ_non_equivalence_declare_pourrait_mentir' depends on axioms: [propext]
+'ProfRegPR13.le_mensonge_sur_les_niveaux_irait_dans_les_deux_sens' does not depend on any axioms
+'ProfRegPR13.la_fusion_au_meme_niveau_somme_les_charges' depends on axioms: [propext]
+'ProfRegPR13.PR13_ne_hierarchise_pas_les_niveaux' depends on axioms: [propext]
+'ProfRegPR13.PR13_n_interdit_pas_le_meme_niveau' depends on axioms: [propext]
+'ProfRegPR13.entite_et_territoire_ne_fusionnent_pas' depends on axioms: [propext]
+'VJE.VJE_sansResistance' depends on axioms: [propext]
+'VJE.VJE_sansResistance_sourceDID' depends on axioms: [propext]
+'VJE.VJE_metalucidite_ssi' depends on axioms: [propext]
+'VJE.VJE_source_ssi_metalucidite' depends on axioms: [propext]
+'ProfRegPR12.l_obligation_A2_ne_se_repartit_pas' does not depend on any axioms
+'ProfRegPR12.la_charge_A3_ne_se_renouvelle_pas' does not depend on any axioms
+'ProfRegPR12.les_deux_erreurs_sont_symetriques' does not depend on any axioms
+'ProfRegPR12.regime_non_declare_ne_vaut_pas_permission' does not depend on any axioms
+'ProfRegPR12.traitement_admis_suppose_son_regime' depends on axioms: [propext]
+'ProfRegPR12.sans_resultat_utile_aucune_repartition' depends on axioms: [propext]
+'ProfRegPR12.sans_mandat_borne_aucune_repartition' depends on axioms: [propext]
+'ProfRegPR12.le_signal_se_leve_exactement_sur_la_confusion' depends on axioms: [propext]
+'ProfRegPR12.le_silence_n_est_pas_une_confusion' depends on axioms: [propext]
+'ProfRegPR12.confusion_temoin_discriminant' depends on axioms: [propext]
+'ProfRegPR12.controleConfusion_trie' depends on axioms: [propext]
+'ProfRegPR12.un_signal_declare_pourrait_mentir' depends on axioms: [propext]
+'ProfRegPR12.le_mensonge_irait_dans_les_deux_sens' depends on axioms: [propext]
+'ProfRegPR12.PR12_ne_qualifie_aucune_dette' depends on axioms: [propext]
+'ProfRegPR12.PR12_ne_juge_pas_le_montant' does not depend on any axioms
+'ProfRegPR12.PR12_ne_hierarchise_pas' does not depend on any axioms
+'ProfRegPR12.traitement_admis_laisse_la_dette_inchangee' depends on axioms: [propext]
+'ProfRegPR7.F10_ne_certifie_pas_sous_F6_actif' does not depend on any axioms
+'ProfRegPR7.traiter_F6_est_toujours_admis' does not depend on any axioms
+'ProfRegPR7.F10_reprend_apres_traitement' depends on axioms: [propext]
+'ProfRegPR7.la_coactivation_a_un_ordre_unique' depends on axioms: [propext]
+'ProfRegPR7.la_priorite_n_est_pas_un_veto' depends on axioms: [propext]
+'ProfRegPR7.PR7_ne_touche_pas_au_contenu' depends on axioms: [propext]
+'ProfRegPR7.PR7_ne_juge_pas_l_injustice' does not depend on any axioms
+'ProfRegPR7.PR7_ne_contraint_pas_hors_coactivation' depends on axioms: [propext]
+'ProfRegPR4.milieu_degrade_persistant_declenche' depends on axioms: [propext]
+'ProfRegPR4.un_seul_intervalle_ne_declenche_pas' depends on axioms: [propext]
+'ProfRegPR4.cloture_declenchee_exhibe_un_inventaire_non_vide' depends on axioms: [propext]
+'ProfRegPR4.le_type_ne_produit_aucun_inventaire' depends on axioms: [propext]
+'ProfRegPR4.cloture_interdite_sans_inventaire' depends on axioms: [propext]
+'ProfRegPR4.le_milieu_declenche_sans_qu_aucun_acteur_ait_declare' depends on axioms: [propext]
+'ProfRegPR4.PR4_les_trois_declencheurs_suffisent_chacun' depends on axioms: [propext]
+'ProfRegPR4.PR4_ne_juge_pas_le_contenu' depends on axioms: [propext]
+'ProfRegPR4.PR4_temoin_discriminant' depends on axioms: [propext]
+'ProfRegPR9.le_couplage_est_un_cycle' does not depend on any axioms
+'ProfRegPR9.les_deux_ordres_different' depends on axioms: [propext]
+'ProfRegPR9.un_canal_qui_ne_relit_pas_le_seuil_termine' does not depend on any axioms
+'ProfRegPR9.un_canal_qui_relit_le_seuil_ne_termine_pas' depends on axioms: [propext]
+'ProfRegPR9.la_terminaison_se_verifie_sur_le_canal_seul' does not depend on any axioms
+'ProfRegPR9.PR9_n_instrumente_pas_le_canal' depends on axioms: [propext]
+'ProfRegPR9.PR9_ne_supprime_pas_le_canal_AE' depends on axioms: [propext]
+'ProfRegPR9.PR9_canalAE_temoin_discriminant' does not depend on any axioms
+'ProfRegPR9.PR9_ne_juge_pas_le_seuil' does not depend on any axioms
+'ProfRegPR5.le_carre_MR_ne_commute_pas' depends on axioms: [propext]
+'ProfRegPR5.l_ordre_RM_puis_MR_inscrit_seul' does not depend on any axioms
+'ProfRegPR5.aucun_sens_ne_produit_la_voix' does not depend on any axioms
+'ProfRegPR5.aucun_sens_ne_produit_l_audit' does not depend on any axioms
+'ProfRegPR5.le_carre_ferme_apres_l_acte' depends on axioms: [propext]
+'ProfRegPR5.un_seul_des_deux_actes_ne_ferme_pas' does not depend on any axioms
+'ProfRegPR5.PR5_ne_refute_pas_le_couplage' depends on axioms: [propext]
+'ProfRegPR5.PR5_ne_juge_pas_la_meconnaissance' depends on axioms: [propext]
+'ProfRegPR24.la_presence_exclut_toujours' does not depend on any axioms
+'ProfRegPR24.l_inscription_exclut_aussi' does not depend on any axioms
+'ProfRegPR24.l_inscription_est_monotone' does not depend on any axioms
+'ProfRegPR24.la_presence_perd_ce_que_l_inscription_garde' depends on axioms: [propext]
+'ProfRegPR24.le_soin_en_presence_se_perd' depends on axioms: [propext]
+'ProfRegPR24.la_presence_produit_l_echappement' depends on axioms: [propext]
+'ProfRegPR24.PR24_ne_dit_pas_que_le_registre_suffit' does not depend on any axioms
+'ProfRegPR24.PR24_l_exclusion_est_conditionnelle' depends on axioms: [propext]
+'ProfRegPR24.meme_presence_inscriptions_differentes' depends on axioms: [propext]
+'ProfRegPR25.la_lecture_com_decide_le_lien' does not depend on any axioms
+'ProfRegPR25.les_deux_observateurs_concluent_pareil' does not depend on any axioms
+'ProfRegPR25.la_symetrie_reste_lisible_en_acces_limite' does not depend on any axioms
+'ProfRegPR25.l_inscription_financiere_du_lien_n_est_pas_divulguee' does not depend on any axioms
+'ProfRegPR25.les_deux_temoins_sont_coherents' does not depend on any axioms
+'ProfRegPR25.PR25_n_etablit_aucune_confidentialite' does not depend on any axioms
+'ProfRegPR25.PR25_ne_verifie_que_l_existence' does not depend on any axioms
+'ProfRegPR25.PR25_n_exige_aucune_harmonisation' does not depend on any axioms
+'ProfRegPR25.la_lecture_com_temoin_discriminant' does not depend on any axioms
+'SondePCEDed.E_plus_admet_le_vide' depends on axioms: [propext]
+'SondePCEDed.seul_E_plus_admet_le_vide' depends on axioms: [propext]
+'SondePCEDed.engagement_sans_miroir_n_est_pas_dette_sans_creancier' depends on axioms: [propext]
+'SondePCEDed.couple_symetrique_C_D' depends on axioms: [propext]
+'SondePCEDed.couple_asymetrique_P_e' depends on axioms: [propext]
+'SondePCEDed.la_table_melange_deux_relations' depends on axioms: [propext]
+'SondePCEDed.second_couple_asymetrique' depends on axioms: [propext]
+'SondePCEDed.respect_R1_declare_peut_mentir' depends on axioms: [propext]
+'SondePCEDed.respect_R1_declare_peut_se_sous_estimer' depends on axioms: [propext]
+'SondePCEDed.composites_bien_types' does not depend on any axioms
+'SondePCEDed.miroir_non_defini_sur_les_composites' does not depend on any axioms
+'SondePCEDed.la_sonde_ne_condamne_pas_le_typage' depends on axioms: [propext]
+'SondePCEDed.la_sonde_ne_tranche_pas' depends on axioms: [propext]
+'SondePCEDed.seul_E_plus_admet_le_vide_table_1809' depends on axioms: [propext]
+'SondePCEDed.les_resultats_de_la_sonde_tiennent_table_1809' depends on axioms: [propext]
+'ProfRegPR26.le_silence_ne_solde_rien' depends on axioms: [propext]
+'ProfRegPR26.deux_regimes_divergents_ne_suffisent_pas' does not depend on any axioms
+'ProfRegPR26.le_tiers_atteste_leve_le_refus' does not depend on any axioms
+'ProfRegPR26.l_extinction_ne_depend_pas_de_l_attribution' does not depend on any axioms
+'ProfRegPR26.la_machine_d_attribution_ignore_l_extinction' does not depend on any axioms
+'ProfRegPR26.seul_debiteur_bien_forme_mais_marque' does not depend on any axioms
+'ProfRegPR26.le_miroir_des_concernes_leve_le_marqueur' depends on axioms: [propext]
+'ProfRegPR26.une_extinction_bien_formee_peut_etre_une_remise' does not depend on any axioms
+'ProfRegPR26.tiers_lemme_sans_critere_mal_forme' does not depend on any axioms
+'ProfRegPR26.une_dette_A2_ne_s_eteint_jamais' depends on axioms: [propext]
+'ProfRegPR26.le_quart_lemme_est_le_regime_de_A2' does not depend on any axioms
+'ProfRegPR27.PR12_coincide_avec_la_fiche' does not depend on any axioms
+'ProfRegPR27.l_avarie_qualifiee_ne_suffit_pas' depends on axioms: [propext]
+'ProfRegPR27.le_repartiteur_non_nomme_ne_decouple_pas' depends on axioms: [propext]
+'ProfRegPR27.fraction_exhibe_une_source_eventuellement_vide' does not depend on any axioms
+'ProfRegPR27.le_score_ne_determine_pas_les_axes' does not depend on any axioms
+'ProfRegLot.PR14_temoin_mal_forme' does not depend on any axioms
+'ProfRegLot.PR2_PaireHomogene_discrimine' does not depend on any axioms
+'ProfRegPR10.PR10_clause1_temoin_mal_forme' depends on axioms: [propext]
+'ProfRegPR10.PR10_suspension_temoin_mal_forme' does not depend on any axioms
+'ProfRegPR3.PR3_clauseSeuil_temoin_mal_forme' does not depend on any axioms
+'ProfRegPR8.PR8_temoin_mal_forme' does not depend on any axioms
+'ProfRegPR8.PR8_RegleAM_discrimine' does not depend on any axioms
+'ProfRegD4.PR15_discrimine' depends on axioms: [propext]
+'ProfRegPR16.PR16_alterite_temoin_discriminant' does not depend on any axioms
+'ProfRegPR16.PR16_moyens_temoin_discriminant' does not depend on any axioms
+'ProfRegPR16.PR16_reprise_temoin_discriminant' does not depend on any axioms
+'ProfRegPR18.PR18_temoin_mal_forme' does not depend on any axioms
+'ProfRegPR27.PR27_temoin_bien_forme' depends on axioms: [propext]
+'ProfRegPR28.nondeclare_force_deliberation' does not depend on any axioms
+'ProfRegPR28.CONV8_temoin_discriminant' does not depend on any axioms
+'ProfRegPR28.BienFormee_ne_borne_pas_la_prospective' does not depend on any axioms
+'ProfRegPR28.CONV6_est_satisfiable' does not depend on any axioms
+'ProfRegPR28.CONV6_ne_vaut_pas_dans_l_exercice' does not depend on any axioms
+'ProfRegPR28.CONV4_satisfaite_sans_DID' does not depend on any axioms
+'ProfRegPR28.source_sans_porteur_mal_formee' does not depend on any axioms
+'ProfRegPR28.CONV4_ne_prescrit_aucune_forme' does not depend on any axioms
+'ProfRegPR28.la_comparaison_sur_un_axe_n_est_pas_le_classement' does not depend on any axioms
+'V1_coherence_discrimine' does not depend on any axioms
+'ProfRegPR29.branches_fideles_a_la_table' depends on axioms: [propext]
+'ProfRegPR29.la_colonne_d_origine_ne_satisfait_pas_B7' depends on axioms: [propext]
+'ProfRegPR29.le_decompte_depend_de_la_lecture_du_plus' depends on axioms: [propext]
+'ProfRegPR29.sous_la_colonne_dedoublee_restent_quatre_lacunes' depends on axioms: [propext]
+'ProfRegPR29.le_dedoublement_conserve_la_contrepartie' does not depend on any axioms
+'ProfRegPR29.absent_n_implique_pas_violation' depends on axioms: [propext]
+'ProfRegPR29.le_statut_ne_se_lit_pas_sur_la_table' depends on axioms: [propext]
+'ProfRegPR29.trois_livres_sans_tiers_mal_formee' depends on axioms: [propext]
+'ProfRegPR29.trois_livres_temoin_discriminant' does not depend on any axioms
+'ProfRegPR29.la_troisieme_arite_n_est_pas_la_deuxieme' does not depend on any axioms
+'ProfRegPR30.la_branche_B_exclut_le_capital_d_apporteur' does not depend on any axioms
+'ProfRegPR30.non_determinable_rend_indetermine' depends on axioms: [propext]
+'ProfRegPR30.le_non_declare_ne_qualifie_pas_et_marque' depends on axioms: [propext]
+'ProfRegPR30.qualifiant_temoin_discriminant' does not depend on any axioms
+'ProfRegPR30.une_classe_non_repartissable_suffit' depends on axioms: [propext, Quot.sound]
+'ProfRegPR30.la_qualification_agregee_n_est_pas_la_qualification_par_classe' does not depend on any axioms
+'ProfRegPR30.classe_manquante_rend_indetermine' depends on axioms: [propext]
+'ProfRegPR30.la_completude_prime_sur_la_classe_qualifiante' does not depend on any axioms
+'ProfRegPR30.citer_ses_regles_n_engage_pas_les_tiers' depends on axioms: [propext]
+'ProfRegPR30.la_pratique_seule_marque_et_ne_qualifie_pas' depends on axioms: [propext]
+'ProfRegPR30.droit_d_ecrire_n_est_pas_pouvoir_d_engager' depends on axioms: [propext]
+'ProfRegPR31.le_marqueur_de_milieu_se_leve_exactement_sur_l_interprete_manquant' depends on axioms: [propext]
+'ProfRegPR31.trois_termes_temoin_discriminant' does not depend on any axioms
+'ProfRegPR31.l_interprete_ne_se_deduit_pas_du_declarant' does not depend on any axioms
+'ProfRegPR31.sans_ancrage_refusee' depends on axioms: [propext]
+'ProfRegPR31.le_registre_de_communalite_suffit' does not depend on any axioms
+'ProfRegPR31.la_duale_exige_un_ancrage_par_cote' does not depend on any axioms
+'ProfRegPR31.ancree_duale_ssi' does not depend on any axioms
+'ProfRegPR31.deux_comptabilites_tenues_ancrent_une_duale' does not depend on any axioms
+'ProfRegPR31.le_registre_de_communalite_ancre_un_cote' does not depend on any axioms
+'ProfRegPR31.un_seul_teneur_pas_de_duale' does not depend on any axioms
+'ProfRegPR31.sans_objet_sans_motif_est_un_nondeclare_renomme' depends on axioms: [propext]
+'ProfRegPR31.le_motif_refute_requalifie' depends on axioms: [propext]
+'ProfRegPR31.G4_n_admet_pas_le_titulaire_non_humain' depends on axioms: [propext]
+'ProfRegPR31.representant_sans_dimension_mal_forme' depends on axioms: [propext]
+'ProfRegPR31.P7_temoin_discriminant' does not depend on any axioms
+'ProfRegPR31.la_lecture_exclusive_ne_porte_pas_deux_dimensions' does not depend on any axioms
+'ProfRegPR32.regime_sans_refutation_n_autorise_aucune_ecriture' depends on axioms: [propext]
+'ProfRegPR32.candidat_ssi_critere_de_sortie_et_caducite' depends on axioms: [propext]
+'ProfRegPR32.regime_temoin_discriminant' does not depend on any axioms
+'ProfRegPR32.le_marqueur_a_toujours_un_horizon' depends on axioms: [propext]
+'ProfRegPR32.marqueur_temoin_discriminant' does not depend on any axioms
+'ProfRegPR33.classement_de_reference' does not depend on any axioms
+'ProfRegPR33.l_ordre_fait_prevaloir_l_objet' does not depend on any axioms
+'ProfRegPR33.l_inscription_dommageable_est_refusee_avant_tout_marqueur' does not depend on any axioms
+'ProfRegPR33.mal_formee_n_implique_pas_refusee' does not depend on any axioms
+'ProfRegPR33.les_refus_ne_viennent_que_des_branches_un_a_trois' does not depend on any axioms
+'ProfRegPR33.le_marqueur_ne_vient_que_de_l_appreciation_ou_du_candidat' does not depend on any axioms
+'ProfRegPR33.sans_branche_pas_de_classement' depends on axioms: [propext]
+'ProfRegPR34.hote_non_declare_delibere' depends on axioms: [propext]
+'ProfRegPR34.la_voie_intermediaire_ne_dispense_pas_du_triplet' depends on axioms: [propext]
+'ProfRegPR34.P5_temoin_discriminant' depends on axioms: [propext]
+'ProfRegPR34.sans_gouvernance_declaree_le_marqueur_suffit' depends on axioms: [propext]
+'ProfRegPR34.P5_suit_le_critere' depends on axioms: [propext]
+'ProfRegPR35.filtre_vide_de_tous_faux' depends on axioms: [propext]
+'ProfRegPR35.tous_faux_de_filtre_vide' depends on axioms: [propext]
+'ProfRegPR35.ecriture_duale_ssi_rapprochement_vide' does not depend on any axioms
+'ProfRegPR35.ecriture_duale_symetrique' does not depend on any axioms
+'ProfRegPR35.le_miroir_change_de_role' does not depend on any axioms
+'ProfRegPR35.la_ligne_miroir_est_de_role_oppose' depends on axioms: [propext, Quot.sound]
+'ProfRegPR35.pret_bancaire_est_une_ecriture_duale' does not depend on any axioms
+'ProfRegPR35.l_ecriture_duale_peut_echouer' does not depend on any axioms
+'ProfRegPR35.l_etat_de_rapprochement_nomme_l_ecart' does not depend on any axioms
+'ProfRegPR35.le_rapprochement_resorbe_l_ecart' depends on axioms: [propext, Quot.sound]
+'ProfRegPR35.le_rapprochement_ne_resorbe_qu_un_sens' does not depend on any axioms
+'ProfRegPR35.pret_bancaire_concordant' does not depend on any axioms
+'ProfRegPR35.duale_n_implique_pas_concordante' does not depend on any axioms
+'ProfRegPR35.concordante_implique_duale' depends on axioms: [propext, Quot.sound]
+'ProfRegPR35.ecriture_duale_temoin_discriminant' does not depend on any axioms
+'ProfRegPR35.deux_silences_sont_en_ecriture_duale' does not depend on any axioms
+'ProfRegPR36.nat_beq_refl' does not depend on any axioms
+'ProfRegPR36.nat_eq_of_beq' does not depend on any axioms
+'ProfRegPR36.versActeur_de_ligne' depends on axioms: [propext, Quot.sound]
+'ProfRegPR36.aUneLigneVers_iff' depends on axioms: [propext, Quot.sound]
+'ProfRegPR36.coherent_vers_acteur' depends on axioms: [propext, Quot.sound]
+'ProfRegPR36.le_registre_tenu_satisfait_L2' depends on axioms: [propext, Quot.sound]
+'ProfRegPR36.raccord_augmente_duale' depends on axioms: [propext, Quot.sound]
+'ProfRegPR36.raccord_temoin' does not depend on any axioms
+'ProfRegPR36.sans_coherence_pas_de_raccord' does not depend on any axioms
+'ProfRegPR36.sans_duale_pas_de_raccord' does not depend on any axioms
+'ProfRegPR36.le_raccord_ne_porte_pas_la_valeur' does not depend on any axioms
+'ProfRegPR36.coherent_temoin_discriminant' does not depend on any axioms
+'ProfRegPR37.sans_registre_l_ecart_reste_inscrit' does not depend on any axioms
+'ProfRegPR37.la_ratification_ne_fonde_pas_le_registre' depends on axioms: [propext]
+'ProfRegPR37.sans_declaration_pas_de_registre' depends on axioms: [propext]
+'ProfRegPR37.sans_critere_d_inclusion_pas_de_registre' depends on axioms: [propext]
+'ProfRegPR37.sans_interprete_pas_de_registre' depends on axioms: [propext]
+'ProfRegPR37.sans_interprete_le_marqueur_PR31_se_leve' depends on axioms: [propext]
+'ProfRegPR37.sans_maintien_pas_d_appui' depends on axioms: [propext]
+'ProfRegPR37.maintien_d_un_autre_registre_pas_d_appui' depends on axioms: [propext]
+'ProfRegPR37.le_milieu_n_ecrit_pas_son_registre' depends on axioms: [propext]
+'ProfRegPR37.ecriture_duale_avec_un_milieu' does not depend on any axioms
+'ProfRegPR37.registre_de_milieu_temoin_discriminant' does not depend on any axioms
+'ProfRegPR37.declaration_echue_l_ecart_revient' does not depend on any axioms
+'ProfRegPR37.l_interprete_n_est_pas_un_concerne' depends on axioms: [propext, Quot.sound]
+'ProfRegPR37.registre_mal_nomme_l_ecart_revient' does not depend on any axioms
+'ProfRegPR37.la_dette_de_preservation_du_milieu_est_calculee' does not depend on any axioms
+'ProfRegPR37.un_collectif_peut_tenir_son_propre_registre' does not depend on any axioms
+'ProfRegPR38.role_miroir' does not depend on any axioms
+'ProfRegPR38.une_paire_concordante_s_annule' depends on axioms: [propext, Quot.sound]
+'ProfRegPR38.le_pret_intragroupe_a_la_forme_de_A15' does not depend on any axioms
+'ProfRegPR38.la_consolidation_efface_ce_que_l_ecriture_duale_conserve' does not depend on any axioms
+'ProfRegPR38.la_consolidation_efface_toujours_la_paire' depends on axioms: [propext, Quot.sound]
+'ProfRegPR38.sans_concordance_l_elimination_laisse_un_ecart' does not depend on any axioms
+'ProfRegPR38.l_addition_est_possible_mais_non_prescrite' does not depend on any axioms
+'ProfRegPR39.sans_constat_rien_n_est_decharge' depends on axioms: [propext]
+'ProfRegPR39.le_constat_ramene_a_la_dette_de_preservation' depends on axioms: [propext]
+'ProfRegPR39.attendu_n_est_pas_constate' depends on axioms: [propext]
+'ProfRegPR39.l_auto_constat_ne_vaut_pas' depends on axioms: [propext]
+'ProfRegPR39.la_contestation_est_inscrite' depends on axioms: [propext]
+'ProfRegPR39.non_reconduit_revient_en_attente' does not depend on any axioms
+'ProfRegPR39.etat_temoin_discriminant' does not depend on any axioms
+'ProfRegPR40.la_communication_ne_change_pas_l_ecart' depends on axioms: [propext, Quot.sound]
+'ProfRegPR40.en_ecriture_duale_rien_a_qualifier' does not depend on any axioms
+'ProfRegPR40.non_verifiable_n_est_pas_constate' does not depend on any axioms
+'ProfRegPR40.le_refus_n_est_pas_un_silence' does not depend on any axioms
+'ProfRegPR40.la_denegation_rend_l_ecart_conteste' does not depend on any axioms
+'ProfRegPR40.statut_temoin_discriminant' does not depend on any axioms
+'ProfRegPR41.aucun_teneur_ne_tranche' does not depend on any axioms
+'ProfRegPR41.un_tiers_lie_ne_tranche_pas' depends on axioms: [propext]
+'ProfRegPR41.l_arbitrage_n_efface_rien' depends on axioms: [propext, Quot.sound]
+'ProfRegPR41.le_tiers_tranche_la_contestation' does not depend on any axioms
+'ProfRegPR41.l_infirmation_laisse_la_ligne_inscrite' does not depend on any axioms
+'ProfRegPR41.arbitrer_temoin_discriminant' does not depend on any axioms
+'ProfRegPR42.probante_suppose_la_duale' does not depend on any axioms
+'ProfRegPR42.entre_lies_sans_tiers_rien_ne_prouve' depends on axioms: [propext]
+'ProfRegPR42.sous_controle_la_duale_ne_prouve_pas_seule' does not depend on any axioms
+'ProfRegPR42.un_temoin_du_groupe_ne_suffit_pas' does not depend on any axioms
+'ProfRegPR42.entre_independants_la_duale_suffit' does not depend on any axioms
+'ProfRegPR42.sous_subordination_meme_regle' does not depend on any axioms
+'ProfRegPR42.probante_temoin_discriminant' does not depend on any axioms
+'ProfRegPR43.sans_instance_commune_rien_n_est_arbitre' depends on axioms: [propext]
+'ProfRegPR43.l_instance_liee_n_arbitre_pas' depends on axioms: [propext]
+'ProfRegPR43.seule_l_instance_commune_tranche' does not depend on any axioms
+'ProfRegPR43.l_instance_commune_tranche_toujours' depends on axioms: [propext]
+'ProfRegPR43.la_designation_doit_etre_commune_et_arretee' does not depend on any axioms
+'ProfRegPR43.l_instance_ne_peut_etre_partie' does not depend on any axioms
+'ProfRegPR43.l_instance_de_controle_peut_constater' does not depend on any axioms
+'ProfRegPR43.instance_commune_temoin_discriminant' does not depend on any axioms
+'ProfRegPR44.le_parcours_n_efface_rien' does not depend on any axioms
+'ProfRegPR44.sans_attestation_rien_n_est_porte' does not depend on any axioms
+'ProfRegPR44.sans_consentement_la_voie_privee_est_fermee' does not depend on any axioms
+'ProfRegPR44.la_voie_publique_ignore_le_refus' depends on axioms: [propext]
+'ProfRegPR44.sans_piece_exterieure_pas_de_foi' depends on axioms: [propext]
+'ProfRegPR44.au_penal_le_constat_renseigne' depends on axioms: [propext]
+'ProfRegPR44.l_attestation_interne_ne_tranche_pas' does not depend on any axioms
+'ProfRegPR44.le_refus_ne_ferme_que_la_voie_privee' does not depend on any axioms
+'ProfRegPR44.le_juge_exige_la_qualite' does not depend on any axioms
+'ProfRegPR44.la_transaction_suppose_x' does not depend on any axioms
+'ProfRegPR44.la_piece_exterieure_fait_foi_au_civil' depends on axioms: [propext]
+'ProfRegPR44.statut_constat_temoin_discriminant' does not depend on any axioms
+'ProfRegPR44.l_arbitrage_exige_une_convention' depends on axioms: [propext]
+'ProfRegPR44.l_autorite_de_supervision_ne_depend_pas_de_la_societe' depends on axioms: [propext]
+'ProfRegPR45.conv17_sans_protocole_hors_protocole' depends on axioms: [propext]
+'ProfRegPR45.conv17_n_interdit_pas_de_signaler' does not depend on any axioms
+'ProfRegPR45.conv17_avec_protocole_retrouve_PR44' depends on axioms: [propext]
+'ProfRegPR45.la_reconstitution_suppose_un_detenteur_tiers' does not depend on any axioms
+'ProfRegPR45.la_sous_declaration_est_chiffree' does not depend on any axioms
+'ProfRegPR45.chaque_rubrique_compte' does not depend on any axioms
+'ProfRegPR45.le_membre_signale_hors_registre' does not depend on any axioms
+'ProfRegPR45.confronter_temoin_discriminant' does not depend on any axioms
+'ProfRegPR45.conforme_temoin_discriminant' does not depend on any axioms
+'ProfRegPR46.directement_lie_pas_de_dette_de_reparation' does not depend on any axioms
+'ProfRegPR46.exiger_n_endette_pas' does not depend on any axioms
+'ProfRegPR46.la_projection_perd_le_fournisseur' does not depend on any axioms
+'ProfRegPR46.plainte_fondee_ecart_resorbe' depends on axioms: [propext, Quot.sound]
+'ProfRegPR46.la_signature_vaut_consentement_ex_ante' depends on axioms: [propext]
+'ProfRegPR46.la_signature_n_ouvre_pas_la_transaction' depends on axioms: [propext]
+'ProfRegPR46.l_etoile_porte_la_chaine' does not depend on any axioms
+'ProfRegPR46.l_etoile_est_toujours_duale' depends on axioms: [propext, Quot.sound]
+'ProfRegPR46.l_objet_declare_borne_le_registre' does not depend on any axioms
+'ProfRegPR46.pas_de_consolidation_dans_la_chaine' does not depend on any axioms
+'ProfRegPR46.le_teneur_n_est_pas_l_instance' does not depend on any axioms
+'ProfRegPR46.la_plainte_fondee_force_le_miroir' does not depend on any axioms
+'ProfRegPR46.qualifier_temoin_discriminant' depends on axioms: [propext]
+'ProfRegPR47.sans_site_destination_non_declaree' depends on axioms: [propext, Quot.sound]
+'ProfRegPR47.le_lien_retenu_prime' depends on axioms: [propext]
+'ProfRegPR47.l_instance_requalifie_le_lien' does not depend on any axioms
+'ProfRegPR47.un_verificateur_non_designe_ne_vaut_pas' does not depend on any axioms
+'ProfRegPR47.destination_infirmee_et_objet_hors_registre' does not depend on any axioms
+'ProfRegPR47.etat18_temoin_discriminant' does not depend on any axioms
+'ProfRegPR48.non_fondee_est_une_contestation' depends on axioms: [propext]
+'ProfRegPR48.plainte_retenue_miroir_force' depends on axioms: [propext, Quot.sound]
+'ProfRegPR48.plainte_non_retenue_rien_ne_change' depends on axioms: [propext]
+'ProfRegPR48.la_societe_ne_s_arbitre_pas' depends on axioms: [propext]
+'ProfRegPR48.sans_instance_l_autorite' depends on axioms: [propext]
+'ProfRegPR48.le_miroir_force_sur_l_instance' depends on axioms: [propext]
+'ProfRegPR48.issue_plainte_temoin_discriminant' depends on axioms: [propext]
+'ProfRegPR49.la_conformite_ne_vaut_pas_realisation' depends on axioms: [propext]
+'ProfRegPR49.conformite_et_realisation_independantes' does not depend on any axioms
+'ProfRegPR49.sans_mise_en_demeure_irrecevable' depends on axioms: [propext]
+'ProfRegPR49.avant_trois_mois_irrecevable' depends on axioms: [propext]
+'ProfRegPR49.la_lecture_stricte_ferme_ce_que_la_souple_ouvre' does not depend on any axioms
+'ProfRegPR49.sans_interet_a_agir_irrecevable' does not depend on any axioms
+'ProfRegPR49.injonction_temoin_discriminant' does not depend on any axioms
+'ProfRegPR50.signal_implique_non_commutation' depends on axioms: [propext]
+'ProfRegPR50.commutatif_ne_signale_pas' depends on axioms: [propext]
+'ProfRegPR50.seuil_non_declare_ne_signale_pas' does not depend on any axioms
+'ProfRegPR50.non_commutation_sous_le_seuil_ne_signale_pas' depends on axioms: [propext]
+'ProfRegPR50.signal_temoin_discriminant' depends on axioms: [propext]
+'ProfRegPR50.le_signal_depend_de_l_ecart_declare' depends on axioms: [propext]
+'ProfRegPR50.action_temoin_discriminant' depends on axioms: [propext]
+'ProfRegPR51.le_chemin_direct_n_est_pas_admissible' depends on axioms: [propext]
+'ProfRegPR51.entrer_en_deliberation_exige_l_inventaire' depends on axioms: [propext]
+'ProfRegPR51.aucune_deliberation_sans_inventaire' depends on axioms: [propext]
+'ProfRegPR51.carre_B1B2_commute_sur_les_chemins_admissibles' depends on axioms: [propext]
+'ProfRegPR51.carre_temoin_discriminant' depends on axioms: [propext]
+'ProfRegPR51.le_carre_a_un_chemin_admissible' depends on axioms: [propext]
+'ProfRegPR52.sans_source_rien_n_est_legitime' does not depend on any axioms
+'ProfRegPR52.la_source_ne_suffit_pas' depends on axioms: [propext]
+'ProfRegPR52.noncollecte_n_est_jamais_legitime' does not depend on any axioms
+'ProfRegPR52.sur_support_distribue_rien_n_est_inscriptible' does not depend on any axioms
+'ProfRegPR52.inscriptible_temoin_discriminant' depends on axioms: [propext]
+'ProfRegPR52.la_souffrance_seule_ne_qualifie_aucune_creance' does not depend on any axioms
+'ProfRegPR52.la_souffrance_n_empeche_pas_la_qualification' depends on axioms: [propext]
+'ProfRegPR53.le_filtre_n_ecarte_que_le_declare_incident' depends on axioms: [propext]
+'ProfRegPR53.local_mais_structurel_passe' does not depend on any axioms
+'ProfRegPR53.non_declare_passe_avec_marqueur' does not depend on any axioms
+'ProfRegPR53.documentee_par_la_souffrance_ne_passe_pas' depends on axioms: [propext]
+'ProfRegPR53.filtre_temoin_discriminant' does not depend on any axioms
+'ProfRegPR53.l_hypothese_seule_ne_qualifie_pas_le_regime' does not depend on any axioms
+'ProfRegPR53.le_cycle_AJ_termine' depends on axioms: [propext]
+'ProfRegPR53.la_souffrance_ne_se_confirme_pas_elle_meme' depends on axioms: [propext]
+'ProfRegPR53.declare_et_presume_s_excluent' depends on axioms: [propext]
+'ProfRegPR53.deni_presume_temoin' does not depend on any axioms
+'ProfRegPR53.ordre_non_respecte_deux_effets' does not depend on any axioms
+'ProfRegPR54.boucle_confirmante_atteste_l_alignement' depends on axioms: [propext]
+'ProfRegPR54.la_contre_performativite_ne_leve_pas_la_boucle' depends on axioms: [propext]
+'ProfRegPR54.boucle_temoin_discriminant' does not depend on any axioms
+'ProfRegPR54.l_effet_d_hote_voit_un_cas_contraire' depends on axioms: [propext]
+'ProfRegPR54.hors_hote_la_contre_performativite_est_invisible' depends on axioms: [propext]
+'ProfRegPR54.desalignement_sans_hote_temoin' depends on axioms: [propext]
+'ProfRegPR54.le_registre_ne_lit_pas_l_hote_reel' depends on axioms: [propext]
+'ProfRegPR54.un_hote_reel_declare_aucun_echappe' depends on axioms: [propext]
+'ProfRegPR55.corpus_non_consenti_lit_le_mode_de_validation' depends on axioms: [propext]
+'ProfRegPR55.corpus_signal_temoin_discriminant' does not depend on any axioms
+'ProfRegPR55.la_representation_ne_couvre_pas_un_joignable' depends on axioms: [propext]
+'ProfRegPR55.l_absence_n_est_jamais_un_verrou' depends on axioms: [propext, Quot.sound]
+'ProfRegPR55.les_deux_cles_sont_necessaires' does not depend on any axioms
+'ProfRegPR55.le_changement_de_mode_ne_leve_pas' does not depend on any axioms
+'ProfRegPR55.bloque_temoin_discriminant' does not depend on any axioms

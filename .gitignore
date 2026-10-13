@@ -1,0 +1,9 @@
+# Dépendances et artefacts de compilation (7 Go) : régénérés par `lake exe cache get && lake build`
+.lake/
+*.olean
+*.ilean
+# Sauvegardes de travail : hors arbre ; l'historique git en tient lieu à partir de profreg-v5.7.0
+_sauvegardes_*/
+.DS_Store
+# Archives locales (anciens journaux, versions antérieures) : jamais publiées
+_archives_locales/
