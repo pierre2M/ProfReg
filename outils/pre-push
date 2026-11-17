@@ -1,0 +1,6 @@
+#!/bin/sh
+# Garde locale : tout push passe par outils/publier.sh (seul l'état courant est publié).
+# Installation : cp outils/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+[ "${MRC_PUBLIER:-}" = 1 ] && exit 0
+echo "Push direct refusé : utilisez outils/publier.sh (seul l'état courant est publié)." >&2
+exit 1
